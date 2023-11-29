@@ -27,4 +27,9 @@ public class DataGenerator
     {
         return personModelFake.Generate();
     }
+
+    public IEnumerable<PersonModel> GeneratePeople()
+    {
+        return personModelFake.GenerateForever();
+    }
 }
